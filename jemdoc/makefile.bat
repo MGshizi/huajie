@@ -4,6 +4,7 @@ python ./jemdoc.py -o ../contest/ contest.jemdoc
 python ./jemdoc.py -o ../ biography.jemdoc
 python ./jemdoc.py -o ../ research-statement.jemdoc
 python ./jemdoc.py -o ../ news.jemdoc
+python ./jemdoc.py -o ../ teaching.jemdoc
 : python ./jemdoc.py -o ../ industrial.jemdoc
 : python ./jemdoc.py -o ../ modules.jemdoc
 python ./jemdoc.py -o ../ academic.jemdoc
@@ -11,8 +12,8 @@ python ./jemdoc.py -o ../ services.jemdoc
 python ./jemdoc.py -o ../ people.jemdoc
 : python ./jemdoc.py -o ../ softwares.jemdoc
 : python ./jemdoc.py -o ../ hardwares.jemdoc
-: python ./jemdoc.py -o ../ awards.jemdoc
-: python ./jemdoc.py -o ../ topics.jemdoc
+python ./jemdoc.py -o ../ awards.jemdoc
+python ./jemdoc.py -o ../ topics.jemdoc
 : python ./jemdoc.py -o ../ recruitment.jemdoc
 : python ./jemdoc.py -o ../ eit.jemdoc
 python ./jemdoc.py -o ../ contact.jemdoc
